@@ -1,0 +1,33 @@
+#navbar{
+    flex-direction: column ;
+}
+.heading-home{
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+    
+}
+#home{
+    height:100px;
+    margin: 5px 20px;
+    padding: 10px;
+} 
+#home::before{
+    height: 100px;
+}
+#services{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services .box {
+    width:10rem;
+    height:5rem;
+    padding: 1rem;
+    margin-top:1rem;
+     
+}
+.clientsection{
+    overflow: hidden;
+}
